@@ -1,0 +1,29 @@
+/* TCSS 305 - Tetris Assignment 5
+ * Deline Zent (Madeline)
+ */
+
+ OVERVIEW:
+ I have created a version of the Tetris game with the following classes.
+ -Main: Loads the Tetris game
+ -TetrisFrame: Stores all the components for the Tetris panel into a frame
+ -TetrisPanel: Draws the GUI for the grid and tetris pieces
+ -TetrisKeyControls: All the controls for the tetris game
+ -ScorePanel: A panel which keeps track of the score and displays it
+ -NextPiecePanel: Shows the next piece to fall
+ -HelpPanel: A panel to explain key controls for user
+ 
+ TO LOAD:
+ To load the Tetris game, please go into the view folder and press on the Main class. This will allow you to reach the 
+ main method which loads the game.
+ 
+ ADDITIONAL FILES:
+ All linked files and images are in the res folder. This includes all the background music and the tetris squares.
+ 
+ THINGS I COULDN'T FINISH:
+ 
+ 1. In TetrisKeyControls, I had a checkstyle error for cyclometic complexity over 10. I kept trying to shorten this,
+ I broke it into 2 methods to alleviate it, however whichever statement had an if or a switch would keep this warning.
+ I think if I had more time with this project I would've been able to fix this.
+ 
+ 2. When the keys are pressed, the game doesn't make a noise along with the key press. I tried everything I could to get
+ the sound effects to work but with no avail. I would have been able to finish this had I had more time.
